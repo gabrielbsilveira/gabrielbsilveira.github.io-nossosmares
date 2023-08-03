@@ -1,0 +1,184 @@
+#imagem_fundo{
+    background: url(Img/fundo.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+
+}
+#titulo {
+    text-align: center;
+    color: white ;
+    padding-top: 10%;
+    font-size: 70px;
+}
+
+#subtitulo {
+    color: white;
+    padding-left: 20%;
+    padding-right:20%;
+    font-size: 30px;
+    align: "center" width="80%";
+}
+
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-decoration: initial;
+}
+
+#caixa {
+    width: 60%;
+    height: 50%;
+    border: 3px solid tomato;
+    text-align: center;
+    line-height: 89.5px;
+    text-transform: uppercase; 
+    font-size: 60px;
+    letter-spacing: 60px;
+    text-decoration:  none;
+    align-self: hover;
+}
+
+.icone {
+    width: 51px;
+}
+
+.section {
+    padding: 20px;
+    float: left;
+}
+
+.destaque {
+    background-color: lightblue;
+}
+
+.imgeco {
+    width: 85%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois {
+    width: 40%;
+}
+
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.quatro {
+    width: 15%;
+
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.destaque2 {
+    background-color: lightseagreen;
+}
+
+.icone {
+    width: 51px;
+}
+
+.imgeco {
+    width:85%;
+    height: 35%;
+}
+
+.imgsb {
+    width: 100%;
+    height: 50%
+}
+
+.coluna2 {
+    float: right;
+    padding: 0 5%;
+    position: relative;
+}
+
+.direita {
+    text-align: right;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+#logo{
+    width: 96px;
+    position: absolute;
+    top: 10%;
+    margin-left: 2%;
+    border: 1xp red;
+}
+
+#menu {
+    border: 1px red;
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+li {
+    float: left;
+    padding: 10 20 10 20;
+}
+
+li.hover {
+    background-color: darkblue;
+}
+
+html, body {
+    margin: 0%;
+}
+.pad_lista {
+    padding: 0% 20%;
+}
+
+.destaque3 {
+    background-color: lightblue;
+}
+
+.destaque4 {
+    background-color: beige;
+}
+
+@media all and (max-width: 700px) {
+
+    #menu {
+        visibility: hidden;
+    }
+
+    .dois, .tres, .quatro {
+        display: block;
+        width: 90%;
+        padding: 0%;
+        margin:  10px auto;
+        float: none;
+    }
+}
